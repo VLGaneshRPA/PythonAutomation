@@ -1,0 +1,15 @@
+# Author: Ardit Sulce, Automate Everything with Python, Udemy
+# Course URL: https://www.udemy.com/course/automate-everything-with-python/
+
+
+#multi line
+content = """First text
+
+
+Second text"""
+
+#w - nonbinary file, wb -binary file liek image, pdf,docx etc.,
+with open('/Users/apple/Desktop/Python/WebScrap/TextProcessing/input/file1.txt', 'w') as file:
+  file.write(content)
+
+
