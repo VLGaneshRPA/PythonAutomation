@@ -33,7 +33,7 @@ def clean_price(raw):
   return float(raw.replace('$', ''))
 
 account_sid = 'AC2c8f548726a631d1c284c6dbf2416af2'
-auth_token = 'd0ec70ee1d61bb5cd610edf87567c35f'
+auth_token = ''
 client = Client(account_sid, auth_token)
 
 raw_price = main()
